@@ -1,29 +1,12 @@
-main {
-  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-  font-size: 11pt; /* Размер основного шрифта в пунктах  */
-  background-color: #f0f0f0; /* Цвет фона веб-страницы */
-  color: #333; /* Цвет основного текста */ 
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
 }
 
-li {
-    position: relative;
-    bottom: 50% 100%;
-    display: inline;
-    vertical-align: middle;
-}
- 
-.button {
-  border: 4px double black; /* Параметры границы */
-  background: #fc3; /* Цвет фона */
-  padding: 10px; /* padding: 10px 20px; Поля вокруг текста */
-  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-  font-size: 30pt; /* Размер основного шрифта в пунктах  */
-  color: rgb(128, 128, 128); /* Цвет основного текста */ 
-}
-
-h1{
-  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-  font-size: 25pt; /* Размер основного шрифта в пунктах  */
-  background-color: rgb(0,0,0); /* Цвет фона веб-страницы */
-  color: #500; /* Цвет основного текста */ 
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
 }
